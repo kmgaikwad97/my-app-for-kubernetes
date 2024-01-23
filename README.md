@@ -68,3 +68,52 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Commands used
+
+1001  docker build -t kshitijg/react-app-k8:1 .
+ 1002  docker build -t kshitijg/react-app-k8:1 .
+ 1003  docker scout quickview
+ 1004  docker push docker.io/kshitijg/react-app-k8:1
+ 1005  docker push kshitijg/react-app-k8
+ 1006  docker push kshitijg/react-app-k8:01
+ 1007  docker push kshitijg/react-app-k8:1
+ 1008  docker logout
+ 1009  docker login
+ 1010  docker build -t kshitijg/react-app-k8:1 .
+ 1011  docker push kshitijg/react-app-k8:1
+ 1012  minikube start
+ 1013  minikube status
+ 1014  kubectl create deplyment react-app-k8 --image=kshitijg/react-app-k8:1 
+ 1015  kubectl create deployment react-app-k8 --image=kshitijg/react-app-k8:1 
+ 1016  kubectl get deployments
+ 1017  kubectl describe deployment react-app-k8
+ 1018  kubectl logs -l app=react-app-k8\n
+ 1019  kubectl get pods
+ 1020  minukube dashboard
+ 1021  minikube dashboard
+ 1022  kubectl expose deployment react-app-k8 -type=LoadBalancer --port=3000
+ 1023  kubectl expose deployment react-app-k8 --type=LoadBalancer --port=3000
+ 1024  kubectl get services
+ 1025  minikube service react-app-k8
+ 1026  docker login
+ 1027  docker build -t kshitijg/react-app-k8:2 .
+ 1028  docker push kshitijg/react-app-k8:2
+ 1029  get deployment pods
+ 1030  kubectl get deployments
+ 1031  kubectl get pods
+ 1032  minikube dashboard
+ 1033  kubectl set image deployment react-app-k8 react-app-k8=kshitijg/react-app-k8:2   
+ 1034  kubectl get pods
+ 1035  kubectl get pods
+ 1036  kubectl get pods
+ 1037  kubectl logs react-app-k8-cb94464fb-7w2mh
+ 1038  kubectl get deployments
+ 1039  kubectl describe deployments react-app-k8
+ 1040  kubectl get pods
+ 1041  kubectl expose deployment react-app-k8 --type=LoadBalancer --port=3000
+ 1042  kubectl get servies
+ 1043  kubectl get services
+ 1044  minikube services react-app-k8
+ 1045  minikube service react-app-k8
+ 1046  history
