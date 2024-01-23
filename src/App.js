@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/* <img src="./k8.svg" className="App-logo" alt="logo" /> */}
         <p>
-          Hello Devops
+          Hello Devops !! I am learning k8.
         </p>
         <a
           className="App-link"
